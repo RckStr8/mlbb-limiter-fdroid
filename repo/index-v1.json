@@ -1,0 +1,94 @@
+{
+  "repo": {
+    "timestamp": 1795259708000,
+    "version": 20002,
+    "name": "MLBB Limiter",
+    "icon": "icon.png",
+    "address": "https://rckstr8.github.io/mlbb-limiter-fdroid/repo",
+    "description": "Builds of MLBB Limiter, straight from GitHub Actions."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "categories": [
+        "fdroid"
+      ],
+      "suggestedVersionCode": "2147483647",
+      "license": "Unknown",
+      "name": "MLBB Limiter",
+      "added": 1795259708000,
+      "packageName": "com.rockstar.mlbblimiter",
+      "lastUpdated": 1795259708000
+    }
+  ],
+  "packages": {
+    "com.rockstar.mlbblimiter": [
+      {
+        "added": 1795259708000,
+        "apkName": "com.rockstar.mlbblimiter_23.apk",
+        "hash": "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.rockstar.mlbblimiter",
+        "sig": "861d600d0ae2e2a7ca3f3aec18bac183",
+        "signer": "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b",
+        "size": 23509564,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_SECURE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.PACKAGE_USAGE_STATS",
+            null
+          ],
+          [
+            "com.rockstar.mlbblimiter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 23,
+        "versionName": "1.23"
+      }
+    ]
+  }
+}

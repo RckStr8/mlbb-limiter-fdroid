@@ -1,0 +1,95 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "MLBB Limiter"
+    },
+    "description": {
+      "en-US": "Builds of MLBB Limiter, straight from GitHub Actions."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "558bdf1cad0210163f228efe16559f2dad3dfad90a07bcadba7cb36ca7ac1d53",
+        "size": 835
+      }
+    },
+    "address": "https://rckstr8.github.io/mlbb-limiter-fdroid/repo",
+    "timestamp": 1795259708000
+  },
+  "packages": {
+    "com.rockstar.mlbblimiter": {
+      "metadata": {
+        "added": 1795259708000,
+        "categories": [
+          "fdroid"
+        ],
+        "lastUpdated": 1795259708000,
+        "name": {
+          "en-US": "MLBB Limiter"
+        },
+        "preferredSigner": "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b"
+      },
+      "versions": {
+        "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a": {
+          "added": 1795259708000,
+          "file": {
+            "name": "/com.rockstar.mlbblimiter_23.apk",
+            "sha256": "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a",
+            "size": 23509564
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.23",
+            "versionCode": 23,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.PACKAGE_USAGE_STATS"
+              },
+              {
+                "name": "com.rockstar.mlbblimiter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

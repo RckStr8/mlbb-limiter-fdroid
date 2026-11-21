@@ -1,0 +1,51 @@
+{
+  "/etc/issue.net": "Ubuntu 24.04.5 LTS",
+  "antiFeatures": {},
+  "apksigner": "/usr/bin/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/usr/bin/fdroid update",
+    "--create-metadata",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1795259711426,
+  "failedBuilds": {},
+  "fdroiddata": {
+    "commitId": "b5849b471d785dbd55be6b244e5c946cef5ef67d",
+    "isDirty": false,
+    "modifiedFiles": [],
+    "untrackedFiles": [
+      "config.yml",
+      "metadata/com.rockstar.mlbblimiter.yml",
+      "repo/categories.txt",
+      "repo/com.rockstar.mlbblimiter_23.apk",
+      "repo/entry.jar",
+      "repo/entry.json",
+      "repo/icons/icon.png",
+      "repo/index-v1.jar",
+      "repo/index-v1.json",
+      "repo/index-v2.json",
+      "repo/index.css",
+      "repo/index.html",
+      "repo/index.jar",
+      "repo/index.png",
+      "repo/index.xml",
+      "tmp/apkcache.json",
+      "tmp/repo_1795259708000.json"
+    ]
+  },
+  "jarsigner": "/usr/lib/jvm/default-java/bin/jarsigner",
+  "keytool": "/usr/lib/jvm/default-java/bin/keytool",
+  "needsUpdate": [
+    "com.rockstar.mlbblimiter"
+  ],
+  "noPackages": [
+    "com.rockstar.mlbblimiter"
+  ],
+  "noUpdateCheck": [
+    "com.rockstar.mlbblimiter"
+  ],
+  "startTimestamp": 1795259707000,
+  "subcommand": "update"
+}
