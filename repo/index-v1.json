@@ -1,11 +1,11 @@
 {
   "repo": {
-    "timestamp": 1795259708000,
+    "timestamp": 1795260300000,
     "version": 20002,
     "name": "MLBB Limiter",
     "icon": "icon.png",
     "address": "https://rckstr8.github.io/mlbb-limiter-fdroid/repo",
-    "description": "Builds of MLBB Limiter, straight from GitHub Actions."
+    "description": "Personal F-Droid repository for MLBB Limiter, an app that caps how many Mobile Legends matches you play each day. Every build comes straight from GitHub Actions."
   },
   "requests": {
     "install": [],
@@ -13,21 +13,92 @@
   },
   "apps": [
     {
+      "authorName": "RckStr8",
       "categories": [
-        "fdroid"
+        "System"
       ],
-      "suggestedVersionCode": "2147483647",
+      "suggestedVersionCode": "24",
       "license": "Unknown",
-      "name": "MLBB Limiter",
-      "added": 1795259708000,
+      "added": 1795260300000,
       "packageName": "com.rockstar.mlbblimiter",
-      "lastUpdated": 1795259708000
+      "lastUpdated": 1795260300000,
+      "localized": {
+        "en-US": {
+          "description": "MLBB Limiter caps how many Mobile Legends matches you play each day. The day runs from 6 AM to 6 AM.\n\nHow it works:\n* After each match it spots the Victory / Defeat stats screen with on-device text recognition. Screenshots are only taken while the game is open, and nothing is saved or sent anywhere.\n* When you reach your limit, a lock screen covers the game after a short grace period.\n* Night curfew: a match that ends after 12:30 AM locks the game until 6 AM.\n\nOn the lock screen:\n* Play one more match: up to 3 times a day, not after 1:30 AM.\n* +1 minute: for collecting rewards or finishing events.\n* Go to home screen.\n\nAlso:\n* +1 Match button for a match the app missed.\n* Optional auto-repair that switches Accessibility back on if the phone turns it off (needs a one-time ADB command).\n* Material You design that follows your wallpaper colours.\n\nNeeds Usage access, Display over other apps, the Accessibility service (screenshots only) and unrestricted battery use.\n",
+          "icon": "icon_QCh6GW_NGh9kLT6CB4DhrnC1pLonkd7Q3I3lJOumwBw=.png",
+          "name": "MLBB Limiter",
+          "summary": "Limits Mobile Legends to a set number of matches a day"
+        }
+      }
     }
   ],
   "packages": {
     "com.rockstar.mlbblimiter": [
       {
-        "added": 1795259708000,
+        "added": 1795260300000,
+        "apkName": "com.rockstar.mlbblimiter_24.apk",
+        "hash": "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9",
+        "hashType": "sha256",
+        "minSdkVersion": 30,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.rockstar.mlbblimiter",
+        "sig": "861d600d0ae2e2a7ca3f3aec18bac183",
+        "signer": "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b",
+        "size": 23509560,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.SYSTEM_ALERT_WINDOW",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_SECURE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.PACKAGE_USAGE_STATS",
+            null
+          ],
+          [
+            "com.rockstar.mlbblimiter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ]
+        ],
+        "versionCode": 24,
+        "versionName": "1.24"
+      },
+      {
+        "added": 1795260300000,
         "apkName": "com.rockstar.mlbblimiter_23.apk",
         "hash": "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a",
         "hashType": "sha256",

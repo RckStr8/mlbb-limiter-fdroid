@@ -4,34 +4,107 @@
       "en-US": "MLBB Limiter"
     },
     "description": {
-      "en-US": "Builds of MLBB Limiter, straight from GitHub Actions."
+      "en-US": "Personal F-Droid repository for MLBB Limiter, an app that caps how many Mobile Legends matches you play each day. Every build comes straight from GitHub Actions."
     },
     "icon": {
       "en-US": {
         "name": "/icons/icon.png",
-        "sha256": "558bdf1cad0210163f228efe16559f2dad3dfad90a07bcadba7cb36ca7ac1d53",
-        "size": 835
+        "sha256": "103b0220268eaa2fce8d21643b0054654108ac78df8e6913a8165275a8705d25",
+        "size": 13031
       }
     },
     "address": "https://rckstr8.github.io/mlbb-limiter-fdroid/repo",
-    "timestamp": 1795259708000
+    "timestamp": 1795260300000
   },
   "packages": {
     "com.rockstar.mlbblimiter": {
       "metadata": {
-        "added": 1795259708000,
+        "added": 1795260300000,
         "categories": [
-          "fdroid"
+          "System"
         ],
-        "lastUpdated": 1795259708000,
+        "lastUpdated": 1795260300000,
+        "authorName": "RckStr8",
         "name": {
           "en-US": "MLBB Limiter"
+        },
+        "summary": {
+          "en-US": "Limits Mobile Legends to a set number of matches a day"
+        },
+        "description": {
+          "en-US": "MLBB Limiter caps how many Mobile Legends matches you play each day. The day runs from 6 AM to 6 AM.\n\nHow it works:\n* After each match it spots the Victory / Defeat stats screen with on-device text recognition. Screenshots are only taken while the game is open, and nothing is saved or sent anywhere.\n* When you reach your limit, a lock screen covers the game after a short grace period.\n* Night curfew: a match that ends after 12:30 AM locks the game until 6 AM.\n\nOn the lock screen:\n* Play one more match: up to 3 times a day, not after 1:30 AM.\n* +1 minute: for collecting rewards or finishing events.\n* Go to home screen.\n\nAlso:\n* +1 Match button for a match the app missed.\n* Optional auto-repair that switches Accessibility back on if the phone turns it off (needs a one-time ADB command).\n* Material You design that follows your wallpaper colours.\n\nNeeds Usage access, Display over other apps, the Accessibility service (screenshots only) and unrestricted battery use.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.rockstar.mlbblimiter/en-US/icon_QCh6GW_NGh9kLT6CB4DhrnC1pLonkd7Q3I3lJOumwBw=.png",
+            "sha256": "40287a196fcd1a1f642d3e820780e1ae70b5a4ba2791ded0dc8de524eba6c01c",
+            "size": 6555
+          }
         },
         "preferredSigner": "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b"
       },
       "versions": {
+        "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9": {
+          "added": 1795260300000,
+          "file": {
+            "name": "/com.rockstar.mlbblimiter_24.apk",
+            "sha256": "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9",
+            "size": 23509560
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.24",
+            "versionCode": 24,
+            "usesSdk": {
+              "minSdkVersion": 30,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.SYSTEM_ALERT_WINDOW"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_SECURE_SETTINGS"
+              },
+              {
+                "name": "android.permission.PACKAGE_USAGE_STATS"
+              },
+              {
+                "name": "com.rockstar.mlbblimiter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              }
+            ]
+          }
+        },
         "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a": {
-          "added": 1795259708000,
+          "added": 1795260300000,
           "file": {
             "name": "/com.rockstar.mlbblimiter_23.apk",
             "sha256": "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a",
