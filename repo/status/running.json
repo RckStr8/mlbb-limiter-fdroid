@@ -9,20 +9,19 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1795260303996,
+  "endTimestamp": 1795260510328,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "4fed6aba095c9eccd655f81ea2990137303a48cf",
+    "commitId": "56ac0a6caceec60defac0e68968b151954c221f7",
     "isDirty": true,
     "modifiedFiles": [
-      "repo/categories.txt",
+      "repo/com.rockstar.mlbblimiter/en-US/icon_QCh6GW_NGh9kLT6CB4DhrnC1pLonkd7Q3I3lJOumwBw=.png",
+      "repo/com.rockstar.mlbblimiter_23.apk",
       "repo/entry.jar",
       "repo/entry.json",
-      "repo/icons/icon.png",
       "repo/index-v1.jar",
       "repo/index-v1.json",
       "repo/index-v2.json",
-      "repo/index.html",
       "repo/index.jar",
       "repo/index.xml"
     ],
@@ -32,13 +31,19 @@
       "metadata/com.rockstar.mlbblimiter.yml",
       "metadata/com.rockstar.mlbblimiter/en-US/full_description.txt",
       "metadata/com.rockstar.mlbblimiter/en-US/images/icon.png",
+      "metadata/com.rockstar.mlbblimiter/en-US/images/phoneScreenshots/1.png",
+      "metadata/com.rockstar.mlbblimiter/en-US/images/phoneScreenshots/2.png",
+      "metadata/com.rockstar.mlbblimiter/en-US/images/phoneScreenshots/3.png",
+      "metadata/com.rockstar.mlbblimiter/en-US/images/phoneScreenshots/4.png",
       "metadata/com.rockstar.mlbblimiter/en-US/short_description.txt",
       "metadata/com.rockstar.mlbblimiter/en-US/title.txt",
-      "repo/com.rockstar.mlbblimiter/en-US/icon.png",
-      "repo/com.rockstar.mlbblimiter/en-US/icon_QCh6GW_NGh9kLT6CB4DhrnC1pLonkd7Q3I3lJOumwBw=.png",
-      "repo/com.rockstar.mlbblimiter_24.apk",
+      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/1.png",
+      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/2.png",
+      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/3.png",
+      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/4.png",
+      "repo/com.rockstar.mlbblimiter_25.apk",
       "tmp/apkcache.json",
-      "tmp/repo_1795260300000.json"
+      "tmp/repo_1795260505000.json"
     ]
   },
   "jarsigner": "/usr/lib/jvm/default-java/bin/jarsigner",
@@ -52,6 +57,6 @@
   "noUpdateCheck": [
     "com.rockstar.mlbblimiter"
   ],
-  "startTimestamp": 1795260299000,
+  "startTimestamp": 1795260500000,
   "subcommand": "update"
 }

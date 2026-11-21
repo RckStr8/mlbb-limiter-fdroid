@@ -14,16 +14,42 @@
       }
     },
     "address": "https://rckstr8.github.io/mlbb-limiter-fdroid/repo",
-    "timestamp": 1795260300000
+    "timestamp": 1795260505000
   },
   "packages": {
     "com.rockstar.mlbblimiter": {
       "metadata": {
-        "added": 1795260300000,
+        "added": 1795260501000,
         "categories": [
           "System"
         ],
-        "lastUpdated": 1795260300000,
+        "lastUpdated": 1795260502000,
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.rockstar.mlbblimiter/en-US/phoneScreenshots/1.png",
+                "sha256": "319759e60086aacd12feb7be160bdfcaa9216571ab29e3f1dc778e42617182fb",
+                "size": 238421
+              },
+              {
+                "name": "/com.rockstar.mlbblimiter/en-US/phoneScreenshots/2.png",
+                "sha256": "368870a11ce8e7661b6418e580e54c6ee289bbf8e731e1f06b9067e1145aadba",
+                "size": 227558
+              },
+              {
+                "name": "/com.rockstar.mlbblimiter/en-US/phoneScreenshots/3.png",
+                "sha256": "f337dfd01659f9ab6ca2d78d173312a4096f2958c72cb42b6920ea685bb225fe",
+                "size": 269316
+              },
+              {
+                "name": "/com.rockstar.mlbblimiter/en-US/phoneScreenshots/4.png",
+                "sha256": "96ed85affeb1a1241b50b6af4061b93f6cfc175d32a0c545bf0c5cd283052c70",
+                "size": 549987
+              }
+            ]
+          }
+        },
         "authorName": "RckStr8",
         "name": {
           "en-US": "MLBB Limiter"
@@ -44,19 +70,19 @@
         "preferredSigner": "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b"
       },
       "versions": {
-        "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9": {
-          "added": 1795260300000,
+        "3a595bd4aa62f0460c2a6459c5685597b9cae5fd5e51fd15dbe14451505afa4d": {
+          "added": 1795260502000,
           "file": {
-            "name": "/com.rockstar.mlbblimiter_24.apk",
-            "sha256": "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9",
-            "size": 23509560
+            "name": "/com.rockstar.mlbblimiter_25.apk",
+            "sha256": "3a595bd4aa62f0460c2a6459c5685597b9cae5fd5e51fd15dbe14451505afa4d",
+            "size": 23509564
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "1.24",
-            "versionCode": 24,
+            "versionName": "1.25",
+            "versionCode": 25,
             "usesSdk": {
               "minSdkVersion": 30,
               "targetSdkVersion": 34
@@ -103,19 +129,19 @@
             ]
           }
         },
-        "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a": {
-          "added": 1795260300000,
+        "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9": {
+          "added": 1795260501000,
           "file": {
-            "name": "/com.rockstar.mlbblimiter_23.apk",
-            "sha256": "fa2cf90bb417dee958d3813f93bd0c376a1ed5ec432576c161bebff9f0e1fa8a",
-            "size": 23509564
+            "name": "/com.rockstar.mlbblimiter_24.apk",
+            "sha256": "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9",
+            "size": 23509560
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "1.23",
-            "versionCode": 23,
+            "versionName": "1.24",
+            "versionCode": 24,
             "usesSdk": {
               "minSdkVersion": 30,
               "targetSdkVersion": 34
