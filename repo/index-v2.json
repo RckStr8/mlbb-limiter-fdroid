@@ -14,16 +14,16 @@
       }
     },
     "address": "https://rckstr8.github.io/mlbb-limiter-fdroid/repo",
-    "timestamp": 1795260505000
+    "timestamp": 1795405650000
   },
   "packages": {
     "com.rockstar.mlbblimiter": {
       "metadata": {
-        "added": 1795260501000,
+        "added": 1795405646000,
         "categories": [
           "System"
         ],
-        "lastUpdated": 1795260502000,
+        "lastUpdated": 1795405646000,
         "screenshots": {
           "phone": {
             "en-US": [
@@ -70,19 +70,19 @@
         "preferredSigner": "1d5af57af1b23f07be95cb4882e89567b16b796b7addd355f0effa0ddbd1c09b"
       },
       "versions": {
-        "3a595bd4aa62f0460c2a6459c5685597b9cae5fd5e51fd15dbe14451505afa4d": {
-          "added": 1795260502000,
+        "d6e0e7aed669f2be2dadf5785ba2e5d72a4efe8a8c06514995517fa0140b4fb4": {
+          "added": 1795405646000,
           "file": {
-            "name": "/com.rockstar.mlbblimiter_25.apk",
-            "sha256": "3a595bd4aa62f0460c2a6459c5685597b9cae5fd5e51fd15dbe14451505afa4d",
+            "name": "/com.rockstar.mlbblimiter_26.apk",
+            "sha256": "d6e0e7aed669f2be2dadf5785ba2e5d72a4efe8a8c06514995517fa0140b4fb4",
             "size": 23509564
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "1.25",
-            "versionCode": 25,
+            "versionName": "1.26",
+            "versionCode": 26,
             "usesSdk": {
               "minSdkVersion": 30,
               "targetSdkVersion": 34
@@ -129,19 +129,19 @@
             ]
           }
         },
-        "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9": {
-          "added": 1795260501000,
+        "3a595bd4aa62f0460c2a6459c5685597b9cae5fd5e51fd15dbe14451505afa4d": {
+          "added": 1795405646000,
           "file": {
-            "name": "/com.rockstar.mlbblimiter_24.apk",
-            "sha256": "fb6848906a059cd73ab5c05a862a9ae6b927614997d44c9c689ecd6cc298e9d9",
-            "size": 23509560
+            "name": "/com.rockstar.mlbblimiter_25.apk",
+            "sha256": "3a595bd4aa62f0460c2a6459c5685597b9cae5fd5e51fd15dbe14451505afa4d",
+            "size": 23509564
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a"
             ],
-            "versionName": "1.24",
-            "versionCode": 24,
+            "versionName": "1.25",
+            "versionCode": 25,
             "usesSdk": {
               "minSdkVersion": 30,
               "targetSdkVersion": 34

@@ -9,14 +9,13 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1795260510328,
+  "endTimestamp": 1795405654784,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "56ac0a6caceec60defac0e68968b151954c221f7",
+    "commitId": "e9ec57ea6aa3787fd8eb2e04d7add7ffad07fb91",
     "isDirty": true,
     "modifiedFiles": [
-      "repo/com.rockstar.mlbblimiter/en-US/icon_QCh6GW_NGh9kLT6CB4DhrnC1pLonkd7Q3I3lJOumwBw=.png",
-      "repo/com.rockstar.mlbblimiter_23.apk",
+      "repo/com.rockstar.mlbblimiter_24.apk",
       "repo/entry.jar",
       "repo/entry.json",
       "repo/index-v1.jar",
@@ -37,13 +36,10 @@
       "metadata/com.rockstar.mlbblimiter/en-US/images/phoneScreenshots/4.png",
       "metadata/com.rockstar.mlbblimiter/en-US/short_description.txt",
       "metadata/com.rockstar.mlbblimiter/en-US/title.txt",
-      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/1.png",
-      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/2.png",
-      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/3.png",
-      "repo/com.rockstar.mlbblimiter/en-US/phoneScreenshots/4.png",
-      "repo/com.rockstar.mlbblimiter_25.apk",
+      "repo/com.rockstar.mlbblimiter/en-US/icon_QCh6GW_NGh9kLT6CB4DhrnC1pLonkd7Q3I3lJOumwBw=.png",
+      "repo/com.rockstar.mlbblimiter_26.apk",
       "tmp/apkcache.json",
-      "tmp/repo_1795260505000.json"
+      "tmp/repo_1795405650000.json"
     ]
   },
   "jarsigner": "/usr/lib/jvm/default-java/bin/jarsigner",
@@ -57,6 +53,6 @@
   "noUpdateCheck": [
     "com.rockstar.mlbblimiter"
   ],
-  "startTimestamp": 1795260500000,
+  "startTimestamp": 1795405645000,
   "subcommand": "update"
 }
